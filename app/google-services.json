@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300157736948",
+    "project_id": "projectmascotitas",
+    "storage_bucket": "projectmascotitas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300157736948:android:774d88dcc6bc1f536c8ba1",
+        "android_client_info": {
+          "package_name": "com.example.projectmascotitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300157736948-aam8nr6in4m5e2pbif4q8qi55apsugjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4nsRrd63y6mHYPO4F5KFYzpxaKrMfR6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300157736948-aam8nr6in4m5e2pbif4q8qi55apsugjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
