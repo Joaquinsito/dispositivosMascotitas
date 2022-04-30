@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -33,6 +34,7 @@ public class Registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
         mAuth = FirebaseAuth.getInstance();
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         email = findViewById(R.id.mailRegister);
         password = findViewById(R.id.password);
@@ -41,6 +43,16 @@ public class Registro extends AppCompatActivity {
         lastname = findViewById(R.id.lastname);
         address = findViewById(R.id.address);
         phone = findViewById(R.id.phoneRegister);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
