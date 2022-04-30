@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectMascotitas">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".Offers"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
             android:name=".index"
             android:exported="false" />
         <activity

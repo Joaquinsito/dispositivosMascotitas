@@ -9,17 +9,15 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class index extends AppCompatActivity {
-
+public class Offers extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_index);
+        setContentView(R.layout.activity_offers);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.offer);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
             @Override
@@ -30,10 +28,10 @@ public class index extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         break;
                     case R.id.home:
+                        startActivity(new Intent(getApplicationContext(), index.class));
+                        overridePendingTransition(0,0);
                         break;
                     case R.id.offer:
-                        startActivity(new Intent(getApplicationContext(), Offers.class));
-                        overridePendingTransition(0,0);
                         break;
                     case R.id.cart:
                         startActivity(new Intent(getApplicationContext(), Cart.class));
