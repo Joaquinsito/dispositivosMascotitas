@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -41,7 +40,7 @@ public class Registro extends AppCompatActivity {
         confirmpassword = findViewById(R.id.confirmPassword);
         name = findViewById(R.id.name);
         lastname = findViewById(R.id.lastname);
-        address = findViewById(R.id.address);
+        address = findViewById(R.id.addressbtn);
         phone = findViewById(R.id.phoneRegister);
     }
 
