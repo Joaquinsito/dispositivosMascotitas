@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectMascotitas">
         <activity
+            android:name=".PaymentSuccessful"
+            android:exported="false" />
+        <activity
+            android:name=".PayCart"
+            android:exported="false" />
+        <activity
+            android:name=".EditCard"
+            android:exported="false" />
+        <activity
+            android:name=".EditAddress"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroUser"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentMethods"
+            android:exported="false" />
+        <activity
+            android:name=".Password"
+            android:exported="false" />
+        <activity
+            android:name=".Address"
+            android:exported="false" />
+        <activity
+            android:name=".details"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
