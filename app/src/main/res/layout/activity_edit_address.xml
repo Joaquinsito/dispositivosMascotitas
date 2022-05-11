@@ -6,56 +6,87 @@
     android:layout_height="match_parent"
     tools:context=".EditAddress">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Edit Address"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textColor="@color/orange_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@color/orange_200" />
 
         <EditText
             android:id="@+id/editaddress"
-            android:layout_width="match_parent"
+            android:layout_width="333dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:ems="10"
             android:hint="Address"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
+            android:layout_width="332dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:ems="10"
             android:hint="Zip Code"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
-            android:layout_width="match_parent"
+            android:layout_width="334dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:ems="10"
             android:hint="Suburb"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
-            android:layout_width="match_parent"
+            android:layout_width="334dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:ems="10"
             android:hint="City"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
-            android:layout_width="match_parent"
+            android:layout_width="335dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:ems="10"
             android:hint="State"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Save" />
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="Save"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

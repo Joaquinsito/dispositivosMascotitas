@@ -14,30 +14,60 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Choose you payment method" />
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Payment Method"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textColor="@color/orange_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@color/orange_200" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="250dp" >
 
-            <RadioButton
-                android:id="@+id/radioButton"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jose Lopez XXXX XXXX XXXX 3453" />
+                android:gravity="center"
+                android:text="Choose you payment method"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
-                android:layout_width="match_parent"
+                android:layout_width="353dp"
                 android:layout_height="wrap_content"
-                android:text="Jose Lopez XXXX XXXX XXXX 8743"  />
+                android:layout_gravity="center"
+                android:hint="Jose Lopez XXXX XXXX XXXX 8743"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Jose Lopez XXXX XXXX XXXX 3453"
+                android:textSize="20sp"/>
+
         </RadioGroup>
 
         <Button
             android:id="@+id/payfinal"
-            android:layout_width="match_parent"
+            android:layout_width="189dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:onClick="pay"
             android:text="Pay" />
     </LinearLayout>

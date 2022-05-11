@@ -14,7 +14,27 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="User Register"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textColor="@color/orange_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@color/orange_200" />
 
         <EditText
             android:id="@+id/name"
@@ -23,24 +43,23 @@
             android:ems="10"
             android:hint="@string/name"
             android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:text="@string/name" />
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/lastname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/lastname" />
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/addressbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/address" />
+            android:hint="Address"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/phoneRegister"
@@ -76,9 +95,8 @@
 
         <Button
             android:id="@+id/buttonRegister"
-            android:layout_width="match_parent"
+            android:layout_width="179dp"
             android:layout_height="wrap_content"
-
             android:text="@string/btn_register" />
 
     </LinearLayout>

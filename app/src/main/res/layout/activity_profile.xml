@@ -13,40 +13,53 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text="Profile"
-            android:textColor="@color/black"
-            android:textSize="50dp"
-            android:textStyle="bold"></TextView>
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textColor="@color/orange_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@color/orange_200" />
 
         <Button
             android:id="@+id/user"
-            android:layout_width="match_parent"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:onClick="user"
             android:text="User" />
 
         <Button
             android:id="@+id/addressbtn"
-            android:layout_width="match_parent"
+            android:layout_width="314dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:onClick="address"
             android:text="address" />
 
         <Button
             android:id="@+id/password"
-            android:layout_width="match_parent"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:onClick="password"
             android:text="Password" />
 
         <Button
             android:id="@+id/payment"
-            android:layout_width="match_parent"
+            android:layout_width="311dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:onClick="paymenth"
             android:text="Payment methods" />
     </LinearLayout>
