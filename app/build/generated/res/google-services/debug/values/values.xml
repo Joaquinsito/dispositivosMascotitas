@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">300157736948-aam8nr6in4m5e2pbif4q8qi55apsugjf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">300157736948</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4nsRrd63y6mHYPO4F5KFYzpxaKrMfR6A</string>
+    <string name="google_app_id" translatable="false">1:300157736948:android:774d88dcc6bc1f536c8ba1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4nsRrd63y6mHYPO4F5KFYzpxaKrMfR6A</string>
+    <string name="google_storage_bucket" translatable="false">projectmascotitas.appspot.com</string>
+    <string name="project_id" translatable="false">projectmascotitas</string>
+</resources>
