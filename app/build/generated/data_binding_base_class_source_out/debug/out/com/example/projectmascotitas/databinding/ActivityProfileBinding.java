@@ -4,7 +4,7 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,23 +21,23 @@ public final class ActivityProfileBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final Button addressbtn;
+  public final LinearLayout addressbtn;
 
   @NonNull
   public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final Button password;
+  public final LinearLayout password;
 
   @NonNull
-  public final Button payment;
+  public final LinearLayout payment;
 
   @NonNull
-  public final Button user;
+  public final LinearLayout user;
 
-  private ActivityProfileBinding(@NonNull RelativeLayout rootView, @NonNull Button addressbtn,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull Button password,
-      @NonNull Button payment, @NonNull Button user) {
+  private ActivityProfileBinding(@NonNull RelativeLayout rootView, @NonNull LinearLayout addressbtn,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull LinearLayout password,
+      @NonNull LinearLayout payment, @NonNull LinearLayout user) {
     this.rootView = rootView;
     this.addressbtn = addressbtn;
     this.bottomNavigation = bottomNavigation;
@@ -74,7 +74,7 @@ public final class ActivityProfileBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addressbtn;
-      Button addressbtn = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout addressbtn = ViewBindings.findChildViewById(rootView, id);
       if (addressbtn == null) {
         break missingId;
       }
@@ -86,19 +86,19 @@ public final class ActivityProfileBinding implements ViewBinding {
       }
 
       id = R.id.password;
-      Button password = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout password = ViewBindings.findChildViewById(rootView, id);
       if (password == null) {
         break missingId;
       }
 
       id = R.id.payment;
-      Button payment = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout payment = ViewBindings.findChildViewById(rootView, id);
       if (payment == null) {
         break missingId;
       }
 
       id = R.id.user;
-      Button user = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout user = ViewBindings.findChildViewById(rootView, id);
       if (user == null) {
         break missingId;
       }
