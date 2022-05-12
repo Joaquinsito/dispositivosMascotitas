@@ -2539,7 +2539,10 @@ int drawable design_password_eye 0x7f070076
 int drawable design_snackbar_background 0x7f070077
 int drawable googleg_disabled_color_18 0x7f070078
 int drawable googleg_standard_color_18 0x7f070079
+int drawable ic_baseline_location_on_24 0x7f0700bd
+int drawable ic_baseline_payment_24 0x7f0700be
 int drawable ic_baseline_person_24 0x7f07007a
+int drawable ic_baseline_verified_user_24 0x7f0700bf
 int drawable ic_cart 0x7f07007b
 int drawable ic_clock_black_24dp 0x7f07007c
 int drawable ic_dashboard 0x7f07007d

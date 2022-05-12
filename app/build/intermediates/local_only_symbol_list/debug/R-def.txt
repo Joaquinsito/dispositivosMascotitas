@@ -8,7 +8,10 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable ic_baseline_location_on_24
+drawable ic_baseline_payment_24
 drawable ic_baseline_person_24
+drawable ic_baseline_verified_user_24
 drawable ic_cart
 drawable ic_dashboard
 drawable ic_history

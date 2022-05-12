@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".PayCart">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="Payment Method"
+            android:text="Card"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
             android:textColor="@color/orange_200"
             android:textSize="25dp"
@@ -30,6 +29,14 @@
             android:layout_height="5dp"
             android:layout_gravity="center"
             android:background="@color/orange_200" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -42,8 +49,7 @@
                 android:text="Choose you payment method"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:typeface="monospace" />
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
@@ -51,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Jose Lopez XXXX XXXX XXXX 8743"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -59,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Jose Lopez XXXX XXXX XXXX 3453"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
         </RadioGroup>
 

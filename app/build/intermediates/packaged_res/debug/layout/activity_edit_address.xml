@@ -6,13 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".EditAddress">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="-16dp">
+        android:orientation="vertical">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -32,10 +30,29 @@
             android:layout_height="5dp"
             android:layout_gravity="center"
             android:background="@color/orange_200" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="-16dp"
+        android:layout_marginTop="100dp"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your data into the fields below"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"/>
 
         <EditText
             android:id="@+id/editaddress"
-            android:layout_width="333dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -44,7 +61,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
-            android:layout_width="332dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -53,7 +70,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
-            android:layout_width="334dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -62,7 +79,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
-            android:layout_width="334dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
@@ -71,7 +88,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
-            android:layout_width="335dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
