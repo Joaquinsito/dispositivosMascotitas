@@ -19,7 +19,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="Cart"
+            android:text="@string/carrito"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
             android:textColor="@color/orange_200"
             android:textSize="25dp"
@@ -61,7 +61,7 @@
                     android:id="@+id/productName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Red Dog Bandana"
+                    android:text="@string/ProductoN"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -84,7 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:text="Remove"
+                    android:text="@string/remover"
                     android:backgroundTint="@color/orange_200"/>
             </LinearLayout>
         </LinearLayout>
@@ -97,7 +97,7 @@
             android:textStyle="bold"
             android:gravity="center"
             android:onClick="pay"
-            android:text="Pay" />
+            android:text="@string/pagar" />
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

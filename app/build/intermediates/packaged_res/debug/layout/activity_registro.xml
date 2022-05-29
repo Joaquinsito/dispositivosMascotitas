@@ -7,8 +7,8 @@
     tools:context=".Registro">
 
     <LinearLayout
-        android:layout_width="313dp"
-        android:layout_height="483dp"
+        android:layout_width="331dp"
+        android:layout_height="492dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,11 +19,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter your data into the fields below"
-            android:textStyle="bold"
-            android:textSize="19dp"
             android:layout_marginBottom="20dp"
-            android:gravity="fill"/>
+            android:gravity="fill"
+            android:text="@string/Mensaje"
+            android:textSize="19dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/mailRegister"
@@ -31,7 +31,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/password"
@@ -39,7 +40,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/confirmPassword"
@@ -47,7 +49,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/confirmpassword"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
 
         <Button
             android:id="@+id/buttonRegister"

@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="Card"
+            android:text="@string/Tarjetas"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
             android:textColor="@color/orange_200"
             android:textSize="25dp"
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Choose you payment method"
+                android:text="@string/MensajeTarjetas"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -75,6 +75,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onClick="pay"
-            android:text="Pay" />
+            android:text="@string/pagar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

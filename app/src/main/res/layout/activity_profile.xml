@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="Profile"
+            android:text="@string/Perfil"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
             android:textColor="@color/orange_200"
             android:textSize="25dp"
@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="User information"
+                    android:text="@string/InformacionU"
                     android:textColor="@color/purple_500"
                     android:textSize="15dp"
                     android:textStyle="bold"
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Address"
+                    android:text="@string/direccion"
                     android:textColor="@color/purple_500"
                     android:textSize="15dp"
                     android:textStyle="bold"
@@ -154,7 +154,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Password"
+                    android:text="@string/contraseña"
                     android:textColor="@color/purple_500"
                     android:textSize="15dp"
                     android:textStyle="bold"
@@ -195,7 +195,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Payment Methods"
+                    android:text="@string/MetodoPago"
                     android:textColor="@color/purple_500"
                     android:textSize="15dp"
                     android:textStyle="bold"

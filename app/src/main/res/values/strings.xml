@@ -2,13 +2,51 @@
     <string name="app_name">ProjectMascotitas</string>
     <string name="btn_login">Login</string>
     <string name="btn_register">Register</string>
+    <string name="btn_comprar">buy now</string>
+    <string name="RegistroU">User Registration </string>
     <string name="name">Name</string>
+    <string name="correo">Email</string>
+    <string name="contraseña">Password</string>
     <string name="lastname">Last Name</string>
-    <string name="address">Address</string>
-    <string name="phoneNumber">Phone Number</string>
+    <string name="productos">Products</string>
+    <string name="historial">History</string>
+    <string name="direccion">Address</string>
+    <string name="direccion1">Address 1</string>
+    <string name="direccion2">Address 2</string>
+    <string name="direccionejem">Jose Lopez Portillo 20010, Insurgentes</string>
+    <string name="direccionejem2">Aurora Boreal 610, Jardines del Sol Aguascalientes, Ags</string>
+    <string name="phoneNumber">Phone number</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="confirmpassword">Confirm Password</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="Oferta">Offers</string>
+    <string name="carrito">Cart</string>
+    <string name="remover">Remove</string>
+    <string name="pagar">Pay</string>
+    <string name="ProductoD">Product Details</string>
+    <string name="ProductoN">red scarf dog</string>
+    <string name="ProductoN2">Reflective clothing</string>
+    <string name="Descripcion">With this new dog collar you will make him the envy of the neighborhood giving him extra comfort and style</string>
+   <string name="descripcion2">With this new reflective clothing your dog can go out to enjoy a night walk</string>
+    <string name="AgregarCarrito">AddCart</string>
+    <string name="EditarDireccion">Edit Address</string>
+    <string name="GuardarD">Save</string>
+    <string name="Estado"> State</string>
+    <string name="Ciudad">City </string>
+    <string name="Mensaje">Enter your information in the following fields below</string>
+    <string name="MensajePago">Your payment was successful</string>
+    <string name="contraseñaA">Old Password</string>
+    <string name="contraseñaN">New Password</string>
+    <string name="Tarjetas">Cards</string>
+    <string name="MensajeTarjetas">Select a payment method </string>
+    <string name="MetodoPago">Payment Methods</string>
+    <string name="Tarjeta1">Card 1</string>
+    <string name="Tarjeta2">Card 2</string>
+    <string name="Perfil">Profile</string>
+    <string name="InformacionU">User Information</string>
+
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_menu">menu</string>
