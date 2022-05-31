@@ -19,7 +19,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="User Register"
+            android:text="@string/RegistroU"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
             android:textColor="@color/orange_200"
             android:textSize="25dp"
@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter your data into the fields below"
+            android:text="@string/Mensaje"
             android:textStyle="bold"
             android:textSize="17dp"
             android:layout_marginBottom="20dp"/>
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Last Name"
+            android:hint="@string/lastname"
             android:inputType="textPersonName" />
 
         <EditText
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Address"
+            android:hint="@string/direccion"
             android:inputType="textPersonName" />
 
         <EditText
