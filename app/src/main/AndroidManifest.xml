@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectMascotitas">
         <activity
+            android:name=".Rating"
+            android:exported="false" />
+        <activity
+            android:name=".HowTo"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
             android:name=".PaymentSuccessful"
             android:exported="false" />
         <activity

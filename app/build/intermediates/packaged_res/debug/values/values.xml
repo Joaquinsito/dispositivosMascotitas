@@ -9,7 +9,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="address">Address</string>
-    <string name="app_name">ProjectMascotitas</string>
+    <string name="app_name">Mascotitas</string>
     <string name="btn_login">Login</string>
     <string name="btn_register">Register</string>
     <string name="confirmpassword">Confirm Password</string>

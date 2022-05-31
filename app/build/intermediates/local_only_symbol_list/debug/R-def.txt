@@ -8,6 +8,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable facebook
 drawable ic_baseline_location_on_24
 drawable ic_baseline_payment_24
 drawable ic_baseline_person_24
@@ -29,6 +30,7 @@ id Register
 id address2
 id addressbtn
 id bottom_navigation
+id btn_link
 id btnpaycart
 id button
 id button2
@@ -80,6 +82,7 @@ id progressBar
 id quantitycart
 id radioButton
 id radioButton2
+id ratingBar2
 id stars
 id textView10
 id textView11
@@ -95,10 +98,12 @@ id textView9
 id user
 layout activity_address
 layout activity_cart
+layout activity_contact
 layout activity_details
 layout activity_edit_address
 layout activity_edit_card
 layout activity_history
+layout activity_how_to
 layout activity_index
 layout activity_login
 layout activity_main
@@ -108,6 +113,7 @@ layout activity_pay_cart
 layout activity_payment_methods
 layout activity_payment_successful
 layout activity_profile
+layout activity_rating
 layout activity_registro
 layout activity_registro_user
 menu menu

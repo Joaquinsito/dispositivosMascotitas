@@ -2537,6 +2537,7 @@ int drawable design_ic_visibility 0x7f070074
 int drawable design_ic_visibility_off 0x7f070075
 int drawable design_password_eye 0x7f070076
 int drawable design_snackbar_background 0x7f070077
+int drawable facebook 0x7f0700c0
 int drawable googleg_disabled_color_18 0x7f070078
 int drawable googleg_standard_color_18 0x7f070079
 int drawable ic_baseline_location_on_24 0x7f0700bd
@@ -2716,6 +2717,7 @@ int id bounce 0x7f080067
 int id bounceBoth 0x7f080068
 int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
+int id btn_link 0x7f080236
 int id btnpaycart 0x7f08006b
 int id button 0x7f08006c
 int id button2 0x7f08006d
@@ -3012,6 +3014,7 @@ int id quantitycart 0x7f08018f
 int id radio 0x7f080190
 int id radioButton 0x7f080191
 int id radioButton2 0x7f080192
+int id ratingBar2 0x7f080235
 int id ratio 0x7f080193
 int id rectangles 0x7f080194
 int id reverseSawtooth 0x7f080195
@@ -3261,10 +3264,12 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_address 0x7f0b001c
 int layout activity_cart 0x7f0b001d
+int layout activity_contact 0x7f0b008d
 int layout activity_details 0x7f0b001e
 int layout activity_edit_address 0x7f0b001f
 int layout activity_edit_card 0x7f0b0020
 int layout activity_history 0x7f0b0021
+int layout activity_how_to 0x7f0b008e
 int layout activity_index 0x7f0b0022
 int layout activity_login 0x7f0b0023
 int layout activity_main 0x7f0b0024
@@ -3274,6 +3279,7 @@ int layout activity_pay_cart 0x7f0b0027
 int layout activity_payment_methods 0x7f0b0028
 int layout activity_payment_successful 0x7f0b0029
 int layout activity_profile 0x7f0b002a
+int layout activity_rating 0x7f0b008f
 int layout activity_registro 0x7f0b002b
 int layout activity_registro_user 0x7f0b002c
 int layout custom_dialog 0x7f0b002d
