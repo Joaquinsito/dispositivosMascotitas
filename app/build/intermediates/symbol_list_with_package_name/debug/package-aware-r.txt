@@ -2724,6 +2724,7 @@ id button2
 id button3
 id buttonPanel
 id buttonRegister
+id buttonRegisters
 id buy
 id cache_measures
 id callMeasure
@@ -2882,7 +2883,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
-id lastname
+id lastnameR
 id layout
 id left
 id leftToRight
@@ -2954,7 +2955,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id name
+id nameR
 id nameproduct
 id nav_controller_view_tag
 id nav_host_fragment_container
@@ -3382,6 +3383,7 @@ menu overflow
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw keep
 string AgregarCarrito
 string Ciudad
 string Descripcion

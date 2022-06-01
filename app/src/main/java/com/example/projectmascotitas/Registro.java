@@ -38,8 +38,8 @@ public class Registro extends AppCompatActivity {
         email = findViewById(R.id.mailRegister);
         password = findViewById(R.id.password);
         confirmpassword = findViewById(R.id.confirmPassword);
-        name = findViewById(R.id.name);
-        lastname = findViewById(R.id.lastname);
+        name = findViewById(R.id.nameR);
+        lastname = findViewById(R.id.lastnameR);
         address = findViewById(R.id.addressbtn);
         phone = findViewById(R.id.phoneRegister);
     }
