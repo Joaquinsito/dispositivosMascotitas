@@ -5,10 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -21,8 +22,12 @@ public class index extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
         details(findViewById(R.id.product));
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.home);
+
+
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
             @Override
@@ -54,6 +59,28 @@ public class index extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.tool_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.Contact:
+                startActivity(new Intent(getApplicationContext(), Contact.class));
+                return true;
+            case R.id.howTo:
+                startActivity(new Intent(getApplicationContext(), HowTo.class));
+                return true;
+            case R.id.Rate:
+                startActivity(new Intent(getApplicationContext(), Rating.class));
+                return true;
+            default: return super.onOptionsItemSelected(item);
+        }
+    }
+
     public void details (View view){
         LinearLayout app_layer = (LinearLayout) findViewById (R.id.product);
         app_layer.setOnClickListener(new View.OnClickListener() {
@@ -63,4 +90,6 @@ public class index extends AppCompatActivity {
             }
         });
     }
+
+
 }

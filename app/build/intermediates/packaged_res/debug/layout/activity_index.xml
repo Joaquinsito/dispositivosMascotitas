@@ -6,10 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".index">
 
+   <include
+       android:id="@+id/toolbar"
+       layout="@layout/toolbar"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize">
 
         <TextView
             android:layout_width="match_parent"
@@ -36,7 +41,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:rowCount="3"
         android:columnCount="2">
 
@@ -236,6 +241,6 @@
         app:itemBackground="@color/orange_200"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        app:menu="@menu/menu" />
+        app:menu="@menu/bottom_nav_menu" />
 
 </RelativeLayout>

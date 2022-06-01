@@ -8,24 +8,20 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_pay_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_password.xml",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_password.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_payment_methods.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_payment_methods.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_cart.xml",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_cart.xml"
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_password.xml",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_password.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_edit_card.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_edit_card.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_rating2.xml",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_rating2.xml"
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_cart.xml",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_cart.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_edit_address.xml",
@@ -44,16 +40,16 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_contact.xml"
     },
     {
-        "merged": "com.example.projectmascotitas.app-mergeDebugResources-40:/layout/activity_how_to.xml",
-        "source": "com.example.projectmascotitas.app-main-43:/layout/activity_how_to.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_profile.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_rating.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_rating.xml"
+    },
+    {
+        "merged": "com.example.projectmascotitas.app-mergeDebugResources-40:/layout/activity_contact.xml",
+        "source": "com.example.projectmascotitas.app-main-43:/layout/activity_contact.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_offers.xml",
@@ -76,6 +72,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_details.xml"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\toolbar.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_how_to.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_how_to.xml"
     },
@@ -86,9 +86,5 @@
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_registro.xml",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_registro.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-40:\\layout\\activity_contact2.xml",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_contact2.xml"
     }
 ]

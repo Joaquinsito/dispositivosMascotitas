@@ -82,7 +82,7 @@
         app:itemBackground="@color/orange_200"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        app:menu="@menu/menu" />
+        app:menu="@menu/bottom_nav_menu" />
 
 
 </RelativeLayout>

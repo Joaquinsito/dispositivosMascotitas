@@ -12,6 +12,7 @@ drawable facebook
 drawable ic_baseline_location_on_24
 drawable ic_baseline_payment_24
 drawable ic_baseline_person_24
+drawable ic_baseline_support_agent_24
 drawable ic_baseline_verified_user_24
 drawable ic_cart
 drawable ic_dashboard
@@ -25,7 +26,9 @@ drawable offer1
 drawable pr1
 drawable pr3
 drawable selector
+id Contact
 id Login
+id Rate
 id Register
 id address2
 id addressbtn
@@ -55,6 +58,7 @@ id editaddress
 id emailLogin
 id history
 id home
+id howTo
 id imageButton
 id imageView
 id imageView2
@@ -95,6 +99,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id toolbar
 id user
 layout activity_address
 layout activity_cart
@@ -116,7 +121,9 @@ layout activity_profile
 layout activity_rating
 layout activity_registro
 layout activity_registro_user
-menu menu
+layout toolbar
+menu bottom_nav_menu
+menu tool_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string address

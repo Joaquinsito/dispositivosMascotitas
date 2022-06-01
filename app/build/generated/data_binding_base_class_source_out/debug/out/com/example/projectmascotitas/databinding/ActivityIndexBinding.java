@@ -26,11 +26,16 @@ public final class ActivityIndexBinding implements ViewBinding {
   @NonNull
   public final LinearLayout product;
 
+  @NonNull
+  public final ToolbarBinding toolbar;
+
   private ActivityIndexBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull LinearLayout product) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull LinearLayout product,
+      @NonNull ToolbarBinding toolbar) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
     this.product = product;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -72,7 +77,15 @@ public final class ActivityIndexBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation, product);
+      id = R.id.toolbar;
+      View toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+      ToolbarBinding binding_toolbar = ToolbarBinding.bind(toolbar);
+
+      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation, product,
+          binding_toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
