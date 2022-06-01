@@ -10,7 +10,6 @@ MERGED from [com.google.android.material:material:1.5.0] C:\Users\JUAN CARLOS\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e51c5a41102fbaa7c3e38e1661ccd203\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\bb95e16848b931445366a478e67aa931\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6bdc2b776454cc6012bb40f608fbe17d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\39557239f7261c50296370ab2cba2282\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\59112cd58050fb0391ce05eff3248db6\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -20,12 +19,15 @@ MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\JUAN CARLOS\.gradle\
 MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5fa6d1290cc509771ada12458bee47a0\transformed\navigation-common-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4f04b2f1bba12d55fbf5dbdb35100fea\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a1cd285b89f9cd2a8160aa040f394acb\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6779a32c236653913a44c68353e0dba7\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e7070713fb9788acc9632f0432120482\transformed\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\28368d3de95059bff66c9ca7d3f4e1aa\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2c1ea7fac43648dfec1ef4cff71b7632\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\78eda7c7564c51b09084a40df13d5543\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2f4dcd80d0c1213385fec6ae2a20e32b\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\764217ef4eae8dbfbef59e728aa4a81d\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a2be3db1a0d507ff970a41ee562a562a\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\eeb12aadb7f4897cb4b17bf06648c2e5\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\adac3ff951d94e36c01f2d5a630da0f0\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -55,8 +57,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\J
 MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\56266c9d075008a8b25cd755b6c5012e\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3602fd8c250cb4156c235c582448ee42\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\deca2ef09eea99cc0fcf14ca9bb4497d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e5f8ee81e0b41186092c1c41d795dad2\transformed\firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5cbfc44dc4732d65be453724994586b5\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\b00288ac3f3fa1b28c8a3770602f5a84\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\bbf4b1eb1e29b2ccfd8c72a6628e8340\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\9cbad161ec879862661714b5f817b257\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
@@ -71,7 +73,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\JUAN CARLOS\.gra
 MERGED from [androidx.print:print:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\7789ee002d0fbba34921bda99c4c769a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ba67af30cb21ff6c49150fd240658e55\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e0f4fe9d7bd27feec69332738d5a41f9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\193c57fde72e15c1a423282e717bba22\transformed\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
 INJECTED from C:\Users\JUAN CARLOS\Android\dispositivosMascotitas\app\src\main\AndroidManifest.xml:2:1-72:12
 INJECTED from C:\Users\JUAN CARLOS\Android\dispositivosMascotitas\app\src\main\AndroidManifest.xml:2:1-72:12
 INJECTED from C:\Users\JUAN CARLOS\Android\dispositivosMascotitas\app\src\main\AndroidManifest.xml:2:1-72:12
@@ -97,18 +98,20 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\JUAN CAR
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e51c5a41102fbaa7c3e38e1661ccd203\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e7070713fb9788acc9632f0432120482\transformed\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e7070713fb9788acc9632f0432120482\transformed\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\28368d3de95059bff66c9ca7d3f4e1aa\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\28368d3de95059bff66c9ca7d3f4e1aa\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2c1ea7fac43648dfec1ef4cff71b7632\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2c1ea7fac43648dfec1ef4cff71b7632\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2f4dcd80d0c1213385fec6ae2a20e32b\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2f4dcd80d0c1213385fec6ae2a20e32b\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\764217ef4eae8dbfbef59e728aa4a81d\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\764217ef4eae8dbfbef59e728aa4a81d\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f2f7a081980ec03554aedf5b100cd819\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -265,8 +268,6 @@ MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\JUAN CARLOS\.gradle\ca
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\bb95e16848b931445366a478e67aa931\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6bdc2b776454cc6012bb40f608fbe17d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6bdc2b776454cc6012bb40f608fbe17d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\39557239f7261c50296370ab2cba2282\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
@@ -285,18 +286,24 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\JUAN CAR
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4f04b2f1bba12d55fbf5dbdb35100fea\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a1cd285b89f9cd2a8160aa040f394acb\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a1cd285b89f9cd2a8160aa040f394acb\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6779a32c236653913a44c68353e0dba7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\6779a32c236653913a44c68353e0dba7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e7070713fb9788acc9632f0432120482\transformed\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e7070713fb9788acc9632f0432120482\transformed\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\28368d3de95059bff66c9ca7d3f4e1aa\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\28368d3de95059bff66c9ca7d3f4e1aa\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2c1ea7fac43648dfec1ef4cff71b7632\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2c1ea7fac43648dfec1ef4cff71b7632\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\78eda7c7564c51b09084a40df13d5543\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\78eda7c7564c51b09084a40df13d5543\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2f4dcd80d0c1213385fec6ae2a20e32b\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\2f4dcd80d0c1213385fec6ae2a20e32b\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\764217ef4eae8dbfbef59e728aa4a81d\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\764217ef4eae8dbfbef59e728aa4a81d\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a2be3db1a0d507ff970a41ee562a562a\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\a2be3db1a0d507ff970a41ee562a562a\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\eeb12aadb7f4897cb4b17bf06648c2e5\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
@@ -355,10 +362,10 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\JUAN CARLOS\.gradle\
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3602fd8c250cb4156c235c582448ee42\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\deca2ef09eea99cc0fcf14ca9bb4497d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\deca2ef09eea99cc0fcf14ca9bb4497d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e5f8ee81e0b41186092c1c41d795dad2\transformed\firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e5f8ee81e0b41186092c1c41d795dad2\transformed\firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5cbfc44dc4732d65be453724994586b5\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5cbfc44dc4732d65be453724994586b5\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\b00288ac3f3fa1b28c8a3770602f5a84\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\b00288ac3f3fa1b28c8a3770602f5a84\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\bbf4b1eb1e29b2ccfd8c72a6628e8340\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\bbf4b1eb1e29b2ccfd8c72a6628e8340\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
@@ -387,8 +394,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\JUAN CARLOS\.gra
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ba67af30cb21ff6c49150fd240658e55\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e0f4fe9d7bd27feec69332738d5a41f9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\e0f4fe9d7bd27feec69332738d5a41f9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\193c57fde72e15c1a423282e717bba22\transformed\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\193c57fde72e15c1a423282e717bba22\transformed\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
 INJECTED from C:\Users\JUAN CARLOS\Android\dispositivosMascotitas\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\JUAN CARLOS\Android\dispositivosMascotitas\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -417,16 +422,16 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.grad
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
@@ -436,43 +441,45 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.grad
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\3ac275c8ce79424aec43ce84f79f91c0\transformed\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:26:22-64
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4e3195a2afb64ca63e089fe3b669dc10\transformed\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\793db9ea97bf7fd64823fb5152e99265\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\d981112d227b12bda50c656e22c388f5\transformed\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\c05390be1d47d76975a35ac09fdd5046\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\JUAN CARLOS\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

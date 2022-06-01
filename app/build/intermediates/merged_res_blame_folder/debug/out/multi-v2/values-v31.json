@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.projectmascotitas.app-mergeDebugResources-39:/values-v31/values-v31.xml",
+            "outputFile": "com.example.projectmascotitas.app-mergeDebugResources-40:/values-v31/values-v31.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JUAN CARLOS\\.gradle\\caches\\transforms-3\\569b6283ac8ea9ec706eed9b9c4cdf02\\transformed\\material-1.5.0\\res\\values-v31\\values-v31.xml",

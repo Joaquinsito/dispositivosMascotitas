@@ -109,6 +109,7 @@
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.projectmascotitas.firebaseinitprovider"
+            android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
 

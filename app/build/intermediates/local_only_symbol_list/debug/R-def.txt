@@ -35,6 +35,7 @@ id button
 id button2
 id button3
 id buttonRegister
+id buttonRegisters
 id buy
 id card
 id cart
@@ -61,10 +62,10 @@ id imageView3
 id imageView5
 id imb
 id imb1
-id lastname
+id lastnameR
 id loginpassword
 id mailRegister
-id name
+id nameR
 id nameproduct
 id offer
 id oldpass

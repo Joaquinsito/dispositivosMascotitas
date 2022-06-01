@@ -1,202 +1,190 @@
 [
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_registro.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_registro.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_payment_methods.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_payment_methods.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_cart.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_offers.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_offers.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_home.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_cart.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_cart.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_baseline_verified_user_24.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_baseline_verified_user_24.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable-v24_pr3.jpg.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable-v24\\pr3.jpg"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable-v24_logo.png.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable-v24\\logo.png"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\menu_overflow.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\menu\\overflow.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_baseline_payment_24.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_baseline_payment_24.xml"
     },
     {
-        "merged": "com.example.projectmascotitas.app-merged_res-41:/layout_activity_registro_user.xml.flat",
-        "source": "com.example.projectmascotitas.app-main-43:/layout/activity_registro_user.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_baseline_payment_24.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_baseline_payment_24.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_history.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_history.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_pr1.jpg.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/pr1.jpg"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_edit_address.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_edit_address.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_address.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_address.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_pay_cart.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_pay_cart.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_registro_user.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_registro_user.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_offers.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_offers.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_main.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_pay_cart.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_pay_cart.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_pr1.jpg.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\pr1.jpg"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_login.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_history.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_history.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_baseline_location_on_24.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_offer1.jpg.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\offer1.jpg"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_profile.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_cart.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_password.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_password.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_details.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_details.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_details.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_details.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_profile.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_home.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_baseline_verified_user_24.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_baseline_verified_user_24.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable-v24_pr3.jpg.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable-v24/pr3.jpg"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_selector.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\selector.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_selector.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/selector.xml"
     },
     {
-        "merged": "com.example.projectmascotitas.app-merged_res-41:/layout_activity_profile.xml.flat",
-        "source": "com.example.projectmascotitas.app-main-43:/layout/activity_profile.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_registro_user.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_registro_user.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable-v24_logo.png.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable-v24/logo.png"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_payment_successful.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_payment_successful.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_history.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_history.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_payment_methods.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_payment_methods.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_cart.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_cart.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_offer1.jpg.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/offer1.jpg"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\menu\\menu.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_edit_card.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_edit_card.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_payment_successful.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_payment_successful.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_baseline_person_24.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_address.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_address.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_password.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_password.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_offers.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_offers.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_dashboard.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_dashboard.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_edit_card.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_edit_card.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_offers.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_offers.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.projectmascotitas.app-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-pngs-36:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_edit_address.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_edit_address.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_history.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_history.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_index.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_index.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/menu_overflow.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/menu/overflow.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.projectmascotitas.app-merged_res-41:/layout_activity_cart.xml.flat",
-        "source": "com.example.projectmascotitas.app-main-43:/layout/activity_cart.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/drawable_ic_dashboard.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/drawable/ic_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\layout\\activity_login.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/menu_menu.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/menu/menu.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_baseline_location_on_24.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_baseline_location_on_24.xml"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_registro.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_registro.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN CARLOS\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_index.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_index.xml"
     }
 ]

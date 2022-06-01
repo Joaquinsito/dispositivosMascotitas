@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.projectmascotitas.app-mergeDebugResources-39:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.projectmascotitas.app-mergeDebugResources-40:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JUAN CARLOS\\.gradle\\caches\\transforms-3\\bb95e16848b931445366a478e67aa931\\transformed\\appcompat-1.4.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
