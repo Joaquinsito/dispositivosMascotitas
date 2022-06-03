@@ -13,6 +13,7 @@ drawable ic_baseline_payment_24
 drawable ic_baseline_person_24
 drawable ic_baseline_verified_user_24
 drawable ic_cart
+drawable ic_contact
 drawable ic_dashboard
 drawable ic_history
 drawable ic_home
@@ -30,6 +31,7 @@ id about
 id address2
 id addressbtn
 id bottom_navigation
+id btnInsert
 id btnpaycart
 id button
 id button2
@@ -43,7 +45,9 @@ id ccv
 id cnum
 id cnumber
 id confirmPassword
+id contact
 id description
+id descriptions
 id duedate
 id editTextTextPersonName
 id editTextTextPersonName2
@@ -55,6 +59,7 @@ id editaddress
 id emailLogin
 id history
 id home
+id howto
 id imageButton
 id imageView
 id imageView2
@@ -62,11 +67,21 @@ id imageView3
 id imageView5
 id imb
 id imb1
+id inputDescription
+id inputName
+id inputPrice
 id lastnameR
+id lblDescriptions
+id lblNames
+id lblPrices
+id linearlayout
+id listViewProducts
 id loginpassword
 id mailRegister
+id menu_agregar
 id nameR
 id nameproduct
+id names
 id offer
 id oldpass
 id password
@@ -74,6 +89,7 @@ id payfinal
 id payment
 id phoneRegister
 id price
+id prices
 id product
 id productName
 id productPriceCart
@@ -82,6 +98,7 @@ id progressBar
 id quantitycart
 id radioButton
 id radioButton2
+id rate
 id social
 id stars
 id textView10
@@ -113,8 +130,11 @@ layout activity_payment_successful
 layout activity_profile
 layout activity_registro
 layout activity_registro_user
+layout insertproduct
+layout listproducts
 menu menu
 menu overflow
+menu top_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string AgregarCarrito

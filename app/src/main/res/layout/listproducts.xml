@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/lblNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblNames"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblPrices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:layout_below="@id/lblNames"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/prices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblPrices"
+        android:layout_below="@id/names"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblDescriptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:layout_below="@id/lblPrices"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/descriptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A very usefull product"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblDescriptions"
+        android:layout_below="@id/prices"
+        android:paddingLeft="5dp"/>
+</RelativeLayout>
