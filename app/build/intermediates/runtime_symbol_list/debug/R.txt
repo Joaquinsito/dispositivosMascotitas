@@ -2783,7 +2783,6 @@ int id decor_content_parent 0x7f0800a7
 int id default_activity_button 0x7f0800a8
 int id deltaRelative 0x7f0800a9
 int id dependency_ordering 0x7f0800aa
-int id description 0x7f0800ab
 int id descriptions 0x7f08023d
 int id design_bottom_sheet 0x7f0800ac
 int id design_menu_item_action_area 0x7f0800ad
@@ -2870,7 +2869,6 @@ int id imageButton 0x7f0800fc
 int id imageView 0x7f0800fd
 int id imageView2 0x7f0800fe
 int id imageView3 0x7f0800ff
-int id imageView5 0x7f080100
 int id imb 0x7f080101
 int id imb1 0x7f080102
 int id immediateStop 0x7f080103
@@ -3017,7 +3015,6 @@ int id phoneRegister 0x7f080185
 int id pin 0x7f080186
 int id position 0x7f080187
 int id postLayout 0x7f080188
-int id price 0x7f080189
 int id prices 0x7f080244
 int id product 0x7f08018a
 int id productName 0x7f08018b
@@ -3094,7 +3091,6 @@ int id src_atop 0x7f0801d0
 int id src_in 0x7f0801d1
 int id src_over 0x7f0801d2
 int id standard 0x7f0801d3
-int id stars 0x7f0801d4
 int id start 0x7f0801d5
 int id startHorizontal 0x7f0801d6
 int id startToEnd 0x7f0801d7

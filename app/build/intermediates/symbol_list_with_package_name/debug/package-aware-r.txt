@@ -2784,7 +2784,6 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id description
 id descriptions
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -2871,7 +2870,6 @@ id imageButton
 id imageView
 id imageView2
 id imageView3
-id imageView5
 id imb
 id imb1
 id immediateStop
@@ -3018,7 +3016,6 @@ id phoneRegister
 id pin
 id position
 id postLayout
-id price
 id prices
 id product
 id productName
@@ -3095,7 +3092,6 @@ id src_atop
 id src_in
 id src_over
 id standard
-id stars
 id start
 id startHorizontal
 id startToEnd

@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -26,34 +25,17 @@ public final class ActivityDetailsBinding implements ViewBinding {
   public final Button cart;
 
   @NonNull
-  public final TextView description;
-
-  @NonNull
-  public final ImageView imageView5;
-
-  @NonNull
   public final TextView nameproduct;
-
-  @NonNull
-  public final TextView price;
 
   @NonNull
   public final LinearLayout product;
 
-  @NonNull
-  public final TextView stars;
-
   private ActivityDetailsBinding(@NonNull RelativeLayout rootView, @NonNull Button cart,
-      @NonNull TextView description, @NonNull ImageView imageView5, @NonNull TextView nameproduct,
-      @NonNull TextView price, @NonNull LinearLayout product, @NonNull TextView stars) {
+      @NonNull TextView nameproduct, @NonNull LinearLayout product) {
     this.rootView = rootView;
     this.cart = cart;
-    this.description = description;
-    this.imageView5 = imageView5;
     this.nameproduct = nameproduct;
-    this.price = price;
     this.product = product;
-    this.stars = stars;
   }
 
   @Override
@@ -89,27 +71,9 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.description;
-      TextView description = ViewBindings.findChildViewById(rootView, id);
-      if (description == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
-        break missingId;
-      }
-
       id = R.id.nameproduct;
       TextView nameproduct = ViewBindings.findChildViewById(rootView, id);
       if (nameproduct == null) {
-        break missingId;
-      }
-
-      id = R.id.price;
-      TextView price = ViewBindings.findChildViewById(rootView, id);
-      if (price == null) {
         break missingId;
       }
 
@@ -119,14 +83,7 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.stars;
-      TextView stars = ViewBindings.findChildViewById(rootView, id);
-      if (stars == null) {
-        break missingId;
-      }
-
-      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, description, imageView5,
-          nameproduct, price, product, stars);
+      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, nameproduct, product);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

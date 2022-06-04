@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class details extends AppCompatActivity {
@@ -17,6 +18,12 @@ public class details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        final TextView txtResult = findViewById(R.id.nameproduct);
+
+        Intent getData = getIntent();
+        String textoRecibido = getData.getStringExtra(index.EXTRA_MESSAGE);
+        txtResult.setText(textoRecibido);
 
         Button button = (Button) findViewById(R.id.cart);
         button.setOnClickListener(new View.OnClickListener() {

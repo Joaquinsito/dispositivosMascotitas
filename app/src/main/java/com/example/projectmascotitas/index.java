@@ -32,6 +32,7 @@ import java.util.UUID;
 
 public class index extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE = "Message";
     BottomNavigationView bottomNavigationView;
     private ArrayList<Product> listproducts = new ArrayList<Product>();
     ArrayAdapter<Product> arrayAdapterProduct;
@@ -96,8 +97,14 @@ public class index extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 productSelected = (Product) adapterView.getItemAtPosition(i);
-                inputName.setText(productSelected.getName());
-                inputName.setText(productSelected.getPrice());
+//                inputName.setText(productSelected.getName());
+//                inputPrice.setText(productSelected.getPrice());
+
+                String texto = productSelected.getName().toString();
+
+                Intent toDetails = new Intent(index.this, details.class);
+                toDetails.putExtra(EXTRA_MESSAGE, texto);
+                startActivity(toDetails);
 
             }
         });
@@ -132,13 +139,13 @@ public class index extends AppCompatActivity {
                     Product p = objSnapshot.getValue(Product.class);
                     listproducts.add(p);
                 }
-
-                arrayAdapterProduct = new ArrayAdapter<Product>(
-                        index.this,
-                        android.R.layout.simple_list_item_1,
-                        listproducts
-                );
-                listViewProducts.setAdapter(arrayAdapterProduct);
+                listViewPersonasAdapter = new ListViewPersonasAdapter(index.this,listproducts);
+//                arrayAdapterProduct = new ArrayAdapter<Product>(
+//                        index.this,
+//                        android.R.layout.simple_list_item_1,
+//                        listproducts
+//                );
+                listViewProducts.setAdapter(listViewPersonasAdapter);
             }
 
 

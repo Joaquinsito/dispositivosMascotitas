@@ -46,7 +46,6 @@ id cnum
 id cnumber
 id confirmPassword
 id contact
-id description
 id descriptions
 id duedate
 id editTextTextPersonName
@@ -64,7 +63,6 @@ id imageButton
 id imageView
 id imageView2
 id imageView3
-id imageView5
 id imb
 id imb1
 id inputDescription
@@ -88,7 +86,6 @@ id password
 id payfinal
 id payment
 id phoneRegister
-id price
 id prices
 id product
 id productName
@@ -100,7 +97,6 @@ id radioButton
 id radioButton2
 id rate
 id social
-id stars
 id textView10
 id textView11
 id textView12
