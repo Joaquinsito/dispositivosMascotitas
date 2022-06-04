@@ -4,7 +4,7 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,13 +24,13 @@ public final class ActivityIndexBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final LinearLayout product;
+  public final ListView listViewProducts;
 
   private ActivityIndexBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull LinearLayout product) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ListView listViewProducts) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
-    this.product = product;
+    this.listViewProducts = listViewProducts;
   }
 
   @Override
@@ -66,13 +66,14 @@ public final class ActivityIndexBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.product;
-      LinearLayout product = ViewBindings.findChildViewById(rootView, id);
-      if (product == null) {
+      id = R.id.listViewProducts;
+      ListView listViewProducts = ViewBindings.findChildViewById(rootView, id);
+      if (listViewProducts == null) {
         break missingId;
       }
 
-      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation, product);
+      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation,
+          listViewProducts);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

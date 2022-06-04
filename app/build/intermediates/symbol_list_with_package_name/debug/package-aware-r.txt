@@ -2546,6 +2546,7 @@ drawable ic_baseline_person_24
 drawable ic_baseline_verified_user_24
 drawable ic_cart
 drawable ic_clock_black_24dp
+drawable ic_contact
 drawable ic_dashboard
 drawable ic_history
 drawable ic_home
@@ -2718,6 +2719,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnInsert
 id btnpaycart
 id button
 id button2
@@ -2761,6 +2763,7 @@ id compress
 id confirmPassword
 id confirm_button
 id constraint
+id contact
 id container
 id content
 id contentPanel
@@ -2781,7 +2784,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id description
+id descriptions
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2855,6 +2858,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id howto
 id icon
 id icon_group
 id icon_only
@@ -2866,12 +2870,14 @@ id imageButton
 id imageView
 id imageView2
 id imageView3
-id imageView5
 id imb
 id imb1
 id immediateStop
 id included
 id info
+id inputDescription
+id inputName
+id inputPrice
 id invisible
 id inward
 id italic
@@ -2885,6 +2891,9 @@ id jumpToStart
 id labeled
 id lastnameR
 id layout
+id lblDescriptions
+id lblNames
+id lblPrices
 id left
 id leftToRight
 id legacy
@@ -2892,7 +2901,9 @@ id light
 id line1
 id line3
 id linear
+id linearlayout
 id listMode
+id listViewProducts
 id list_item
 id locale
 id loginpassword
@@ -2921,6 +2932,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id menu_agregar
 id message
 id middle
 id mini
@@ -2957,6 +2969,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nameR
 id nameproduct
+id names
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
@@ -3003,7 +3016,7 @@ id phoneRegister
 id pin
 id position
 id postLayout
-id price
+id prices
 id product
 id productName
 id productPriceCart
@@ -3015,6 +3028,7 @@ id quantitycart
 id radio
 id radioButton
 id radioButton2
+id rate
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3078,7 +3092,6 @@ id src_atop
 id src_in
 id src_over
 id standard
-id stars
 id start
 id startHorizontal
 id startToEnd
@@ -3296,6 +3309,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout insertproduct
+layout listproducts
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3380,6 +3395,7 @@ menu example_menu
 menu example_menu2
 menu menu
 menu overflow
+menu top_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
