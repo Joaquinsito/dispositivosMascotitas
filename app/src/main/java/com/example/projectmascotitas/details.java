@@ -2,6 +2,7 @@ package com.example.projectmascotitas;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,9 +18,11 @@ public class details extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final TextView txtResult = findViewById(R.id.nameproduct);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         Intent getData = getIntent();
         String textoRecibido = getData.getStringExtra(index.EXTRA_MESSAGE);
