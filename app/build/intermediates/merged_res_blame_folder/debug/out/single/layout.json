@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_rating.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_rating.xml"
+    },
+    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_edit_address.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_edit_address.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_payment_successful.xml"
     },
     {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_contact.xml"
+    },
+    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_main.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_main.xml"
     },
@@ -78,5 +86,9 @@
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_offers.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_howto.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_howto.xml"
     }
 ]

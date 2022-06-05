@@ -8,6 +8,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.projectmascotitas.R;
@@ -26,11 +27,16 @@ public final class ActivityIndexBinding implements ViewBinding {
   @NonNull
   public final ListView listViewProducts;
 
+  @NonNull
+  public final Toolbar toolbar;
+
   private ActivityIndexBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull ListView listViewProducts) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ListView listViewProducts,
+      @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
     this.listViewProducts = listViewProducts;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -72,8 +78,14 @@ public final class ActivityIndexBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation,
-          listViewProducts);
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityIndexBinding((RelativeLayout) rootView, bottomNavigation, listViewProducts,
+          toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

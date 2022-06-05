@@ -2538,6 +2538,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable facebook
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_location_on_24
@@ -2720,6 +2721,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnInsert
+id btn_link
 id btnpaycart
 id button
 id button2
@@ -3029,6 +3031,7 @@ id radio
 id radioButton
 id radioButton2
 id rate
+id ratingBar2
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3154,6 +3157,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -3278,10 +3282,12 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_address
 layout activity_cart
+layout activity_contact
 layout activity_details
 layout activity_edit_address
 layout activity_edit_card
 layout activity_history
+layout activity_howto
 layout activity_index
 layout activity_login
 layout activity_main
@@ -3291,6 +3297,7 @@ layout activity_pay_cart
 layout activity_payment_methods
 layout activity_payment_successful
 layout activity_profile
+layout activity_rating
 layout activity_registro
 layout activity_registro_user
 layout custom_dialog

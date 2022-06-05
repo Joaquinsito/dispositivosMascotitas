@@ -3,6 +3,7 @@ package com.example.projectmascotitas;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -60,6 +61,9 @@ public class index extends AppCompatActivity {
 
         listViewProducts = findViewById(R.id.listViewProducts);
 
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.home);
@@ -171,6 +175,15 @@ public class index extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu_agregar:
                 insert();
+                break;
+            case R.id.contact:
+                startActivity(new Intent(getApplicationContext(), contact.class));
+                break;
+            case R.id.howto:
+                startActivity(new Intent(getApplicationContext(), howto.class));
+                break;
+            case R.id.rate:
+                startActivity(new Intent(getApplicationContext(), rating.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

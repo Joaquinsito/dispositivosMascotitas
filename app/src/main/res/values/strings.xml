@@ -27,7 +27,7 @@
     <string name="ProductoN">red scarf dog</string>
     <string name="ProductoN2">Reflective clothing</string>
     <string name="Descripcion">With this new dog collar you will make him the envy of the neighborhood giving him extra comfort and style</string>
-   <string name="descripcion2">With this new reflective clothing your dog can go out to enjoy a night walk</string>
+    <string name="descripcion2">With this new reflective clothing your dog can go out to enjoy a night walk</string>
     <string name="AgregarCarrito">AddCart</string>
     <string name="EditarDireccion">Edit Address</string>
     <string name="GuardarD">Save</string>
@@ -44,7 +44,6 @@
     <string name="Tarjeta2">Card 2</string>
     <string name="Perfil">Profile</string>
     <string name="InformacionU">User Information</string>
-
 
 
     <!-- TODO: Remove or change this placeholder text -->

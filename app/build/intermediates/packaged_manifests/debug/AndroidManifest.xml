@@ -24,6 +24,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectMascotitas" >
         <activity
+            android:name="com.example.projectmascotitas.howto"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectmascotitas.rating"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectmascotitas.contact"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectmascotitas.PaymentSuccessful"
             android:exported="false" />
         <activity

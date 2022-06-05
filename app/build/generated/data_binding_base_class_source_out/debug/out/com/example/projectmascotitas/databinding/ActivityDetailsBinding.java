@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.projectmascotitas.R;
@@ -30,12 +31,16 @@ public final class ActivityDetailsBinding implements ViewBinding {
   @NonNull
   public final LinearLayout product;
 
+  @NonNull
+  public final Toolbar toolbar;
+
   private ActivityDetailsBinding(@NonNull RelativeLayout rootView, @NonNull Button cart,
-      @NonNull TextView nameproduct, @NonNull LinearLayout product) {
+      @NonNull TextView nameproduct, @NonNull LinearLayout product, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.cart = cart;
     this.nameproduct = nameproduct;
     this.product = product;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -83,7 +88,14 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, nameproduct, product);
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, nameproduct, product,
+          toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
