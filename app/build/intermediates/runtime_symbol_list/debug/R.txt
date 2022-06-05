@@ -2863,6 +2863,7 @@ int id howto 0x7f0800f8
 int id icon 0x7f0800f9
 int id icon_group 0x7f0800fa
 int id icon_only 0x7f0800fb
+int id idOrder 0x7f08024a
 int id ifRoom 0x7f0800fc
 int id ignore 0x7f0800fd
 int id ignoreRequest 0x7f0800fe
@@ -2870,8 +2871,6 @@ int id image 0x7f0800ff
 int id imageButton 0x7f080100
 int id imageView 0x7f080101
 int id imageView2 0x7f080102
-int id imb 0x7f080104
-int id imb1 0x7f080105
 int id immediateStop 0x7f080106
 int id included 0x7f080107
 int id info 0x7f080108
@@ -2893,7 +2892,11 @@ int id lastnameR 0x7f080117
 int id layout 0x7f080118
 int id lblDescriptions 0x7f080119
 int id lblNames 0x7f08011a
+int id lblOrder 0x7f08024b
+int id lblPrice 0x7f08024c
 int id lblPrices 0x7f08011b
+int id lblQuantity 0x7f08024d
+int id lblproductName 0x7f08024e
 int id left 0x7f08011c
 int id leftToRight 0x7f08011d
 int id legacy 0x7f08011e
@@ -2903,6 +2906,7 @@ int id line3 0x7f080121
 int id linear 0x7f080122
 int id linearlayout 0x7f080123
 int id listMode 0x7f080124
+int id listViewOrders 0x7f08024f
 int id listViewProducts 0x7f080125
 int id list_item 0x7f080126
 int id locale 0x7f080127
@@ -3020,10 +3024,13 @@ int id postLayout 0x7f080195
 int id priceproduct 0x7f080247
 int id prices 0x7f080196
 int id product 0x7f080197
+int id productName 0x7f080198
+int id productPrice 0x7f080250
 int id profile 0x7f08019a
 int id progressBar 0x7f08019b
 int id progress_circular 0x7f08019c
 int id progress_horizontal 0x7f08019d
+int id quantitypro 0x7f080251
 int id quantityproduct 0x7f080249
 int id radio 0x7f08019f
 int id radioButton 0x7f0801a0
@@ -3135,7 +3142,6 @@ int id textView11 0x7f080208
 int id textView12 0x7f080209
 int id textView13 0x7f08020a
 int id textView14 0x7f08020b
-int id textView4 0x7f08020c
 int id textView5 0x7f08020d
 int id textView6 0x7f08020e
 int id textView7 0x7f08020f
@@ -3315,6 +3321,7 @@ int layout design_navigation_menu_item 0x7f0b003d
 int layout design_text_input_end_icon 0x7f0b003e
 int layout design_text_input_start_icon 0x7f0b003f
 int layout insertproduct 0x7f0b0040
+int layout listorders 0x7f0b0092
 int layout listproducts 0x7f0b0041
 int layout m3_alert_dialog 0x7f0b0042
 int layout m3_alert_dialog_actions 0x7f0b0043

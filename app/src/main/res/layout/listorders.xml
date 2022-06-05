@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/lblOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Order:"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/idOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblOrder"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/lblproductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product name:"
+        android:layout_below="@id/lblOrder"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="si"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblproductName"
+        android:layout_below="@id/idOrder"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/lblPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:layout_below="@id/lblproductName"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblPrice"
+        android:layout_below="@id/productName"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/lblQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:layout_below="@id/productPrice"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/quantitypro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/lblQuantity"
+        android:layout_below="@id/productPrice"
+        android:paddingLeft="5dp"/>
+
+
+
+</RelativeLayout>
