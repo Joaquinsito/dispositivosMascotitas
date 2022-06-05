@@ -52,6 +52,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="nameregister">Name</string>
+    <string name="lastnameregister">Lastname</string>
+    <string name="phoneregister">Phone</string>
+    <string name="addressR">Address</string>
 
 
 </resources>

@@ -2687,6 +2687,7 @@ int id actions 0x7f080048
 int id activity_chooser_view_content 0x7f080049
 int id add 0x7f08004a
 int id address2 0x7f08004b
+int id addressR 0x7f080245
 int id addressbtn 0x7f08004c
 int id adjust_height 0x7f08004d
 int id adjust_width 0x7f08004e
@@ -2724,7 +2725,6 @@ int id btn_link 0x7f08006d
 int id btnpaycart 0x7f08006e
 int id button 0x7f08006f
 int id button2 0x7f080070
-int id button3 0x7f080071
 int id buttonPanel 0x7f080072
 int id buttonRegister 0x7f080073
 int id buttonRegisters 0x7f080074
@@ -2870,7 +2870,6 @@ int id image 0x7f0800ff
 int id imageButton 0x7f080100
 int id imageView 0x7f080101
 int id imageView2 0x7f080102
-int id imageView3 0x7f080103
 int id imb 0x7f080104
 int id imb1 0x7f080105
 int id immediateStop 0x7f080106
@@ -3013,19 +3012,19 @@ int id payfinal 0x7f08018e
 int id payment 0x7f08018f
 int id peekHeight 0x7f080190
 int id percent 0x7f080191
+int id phoneR 0x7f080246
 int id phoneRegister 0x7f080192
 int id pin 0x7f080193
 int id position 0x7f080194
 int id postLayout 0x7f080195
+int id priceproduct 0x7f080247
 int id prices 0x7f080196
 int id product 0x7f080197
-int id productName 0x7f080198
-int id productPriceCart 0x7f080199
 int id profile 0x7f08019a
 int id progressBar 0x7f08019b
 int id progress_circular 0x7f08019c
 int id progress_horizontal 0x7f08019d
-int id quantitycart 0x7f08019e
+int id quantityproduct 0x7f080249
 int id radio 0x7f08019f
 int id radioButton 0x7f0801a0
 int id radioButton2 0x7f0801a1
@@ -3453,6 +3452,7 @@ int string abc_searchview_description_voice 0x7f10002b
 int string abc_shareactionprovider_share_with 0x7f10002c
 int string abc_shareactionprovider_share_with_application 0x7f10002d
 int string abc_toolbar_collapse_description 0x7f10002e
+int string addressR 0x7f1000d0
 int string androidx_startup 0x7f10002f
 int string app_name 0x7f100030
 int string appbar_scrolling_view_behavior 0x7f100031
@@ -3513,6 +3513,7 @@ int string historial 0x7f100067
 int string icon_content_description 0x7f100068
 int string item_view_role_description 0x7f100069
 int string lastname 0x7f10006a
+int string lastnameregister 0x7f1000d1
 int string m3_ref_typeface_brand_display_regular 0x7f10006b
 int string m3_ref_typeface_brand_medium 0x7f10006c
 int string m3_ref_typeface_brand_regular 0x7f10006d
@@ -3595,6 +3596,7 @@ int string mtrl_picker_toggle_to_text_input_mode 0x7f1000b9
 int string mtrl_picker_toggle_to_year_selection 0x7f1000ba
 int string mtrl_timepicker_confirm 0x7f1000bb
 int string name 0x7f1000bc
+int string nameregister 0x7f1000d2
 int string nav_app_bar_navigate_up_description 0x7f1000bd
 int string nav_app_bar_open_drawer_description 0x7f1000be
 int string pagar 0x7f1000bf
@@ -3605,6 +3607,7 @@ int string path_password_eye_mask_strike_through 0x7f1000c3
 int string path_password_eye_mask_visible 0x7f1000c4
 int string path_password_strike_through 0x7f1000c5
 int string phoneNumber 0x7f1000c6
+int string phoneregister 0x7f1000d3
 int string productos 0x7f1000c7
 int string project_id 0x7f1000c8
 int string remover 0x7f1000c9

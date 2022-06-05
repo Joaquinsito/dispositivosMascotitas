@@ -52,6 +52,38 @@
             android:inputType="textPassword"
             android:minHeight="48dp" />
 
+        <EditText
+            android:id="@+id/nameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nameregister"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/lastnameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lastnameregister"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/addressR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/addressR"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/phoneR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phoneregister"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
         <Button
             android:id="@+id/buttonRegister"
             android:layout_width="match_parent"

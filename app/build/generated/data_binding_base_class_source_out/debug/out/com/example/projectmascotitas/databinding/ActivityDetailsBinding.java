@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -29,17 +30,26 @@ public final class ActivityDetailsBinding implements ViewBinding {
   public final TextView nameproduct;
 
   @NonNull
+  public final TextView priceproduct;
+
+  @NonNull
   public final LinearLayout product;
+
+  @NonNull
+  public final EditText quantityproduct;
 
   @NonNull
   public final Toolbar toolbar;
 
   private ActivityDetailsBinding(@NonNull RelativeLayout rootView, @NonNull Button cart,
-      @NonNull TextView nameproduct, @NonNull LinearLayout product, @NonNull Toolbar toolbar) {
+      @NonNull TextView nameproduct, @NonNull TextView priceproduct, @NonNull LinearLayout product,
+      @NonNull EditText quantityproduct, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.cart = cart;
     this.nameproduct = nameproduct;
+    this.priceproduct = priceproduct;
     this.product = product;
+    this.quantityproduct = quantityproduct;
     this.toolbar = toolbar;
   }
 
@@ -82,9 +92,21 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.priceproduct;
+      TextView priceproduct = ViewBindings.findChildViewById(rootView, id);
+      if (priceproduct == null) {
+        break missingId;
+      }
+
       id = R.id.product;
       LinearLayout product = ViewBindings.findChildViewById(rootView, id);
       if (product == null) {
+        break missingId;
+      }
+
+      id = R.id.quantityproduct;
+      EditText quantityproduct = ViewBindings.findChildViewById(rootView, id);
+      if (quantityproduct == null) {
         break missingId;
       }
 
@@ -94,8 +116,8 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, nameproduct, product,
-          toolbar);
+      return new ActivityDetailsBinding((RelativeLayout) rootView, cart, nameproduct, priceproduct,
+          product, quantityproduct, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
