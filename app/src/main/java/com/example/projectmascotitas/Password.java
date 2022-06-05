@@ -46,7 +46,7 @@ public class Password extends AppCompatActivity {
         listv_Usuario=findViewById(R.id.datoscontraseña);
         inicializacionFireBase();
         listarDatos();
-       listv_Usuario.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listv_Usuario.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 UsuarioSeleccionada=(Usuario) parent.getItemAtPosition(position);
@@ -83,7 +83,7 @@ public class Password extends AppCompatActivity {
         });
     }
 
-        private void listarDatos() {
+    private void listarDatos() {
         databaseReference.child("Usuario").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
