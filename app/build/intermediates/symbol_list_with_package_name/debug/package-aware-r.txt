@@ -2864,6 +2864,7 @@ id howto
 id icon
 id icon_group
 id icon_only
+id idOrder
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2871,8 +2872,6 @@ id image
 id imageButton
 id imageView
 id imageView2
-id imb
-id imb1
 id immediateStop
 id included
 id info
@@ -2894,7 +2893,11 @@ id lastnameR
 id layout
 id lblDescriptions
 id lblNames
+id lblOrder
+id lblPrice
 id lblPrices
+id lblQuantity
+id lblproductName
 id left
 id leftToRight
 id legacy
@@ -2904,6 +2907,7 @@ id line3
 id linear
 id linearlayout
 id listMode
+id listViewOrders
 id listViewProducts
 id list_item
 id locale
@@ -3021,10 +3025,13 @@ id postLayout
 id priceproduct
 id prices
 id product
+id productName
+id productPrice
 id profile
 id progressBar
 id progress_circular
 id progress_horizontal
+id quantitypro
 id quantityproduct
 id radio
 id radioButton
@@ -3136,7 +3143,6 @@ id textView11
 id textView12
 id textView13
 id textView14
-id textView4
 id textView5
 id textView6
 id textView7
@@ -3316,6 +3322,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout insertproduct
+layout listorders
 layout listproducts
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

@@ -4,9 +4,8 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -25,26 +24,13 @@ public final class ActivityHistoryBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigation;
 
   @NonNull
-  public final ImageButton imb;
-
-  @NonNull
-  public final ImageButton imb1;
-
-  @NonNull
-  public final TextView textView4;
-
-  @NonNull
-  public final TextView textView5;
+  public final ListView listViewOrders;
 
   private ActivityHistoryBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageButton imb,
-      @NonNull ImageButton imb1, @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ListView listViewOrders) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
-    this.imb = imb;
-    this.imb1 = imb1;
-    this.textView4 = textView4;
-    this.textView5 = textView5;
+    this.listViewOrders = listViewOrders;
   }
 
   @Override
@@ -80,32 +66,14 @@ public final class ActivityHistoryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imb;
-      ImageButton imb = ViewBindings.findChildViewById(rootView, id);
-      if (imb == null) {
+      id = R.id.listViewOrders;
+      ListView listViewOrders = ViewBindings.findChildViewById(rootView, id);
+      if (listViewOrders == null) {
         break missingId;
       }
 
-      id = R.id.imb1;
-      ImageButton imb1 = ViewBindings.findChildViewById(rootView, id);
-      if (imb1 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
-      return new ActivityHistoryBinding((RelativeLayout) rootView, bottomNavigation, imb, imb1,
-          textView4, textView5);
+      return new ActivityHistoryBinding((RelativeLayout) rootView, bottomNavigation,
+          listViewOrders);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
