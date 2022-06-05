@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,34 +22,46 @@ public final class ActivityEditAddressBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final Button actualizaraddres;
 
   @NonNull
-  public final EditText editTextTextPersonName2;
+  public final Button buttonaddres;
 
   @NonNull
-  public final EditText editTextTextPersonName3;
-
-  @NonNull
-  public final EditText editTextTextPersonName4;
-
-  @NonNull
-  public final EditText editTextTextPersonName5;
+  public final ListView datosaddres;
 
   @NonNull
   public final EditText editaddress;
 
-  private ActivityEditAddressBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull EditText editTextTextPersonName2, @NonNull EditText editTextTextPersonName3,
-      @NonNull EditText editTextTextPersonName4, @NonNull EditText editTextTextPersonName5,
-      @NonNull EditText editaddress) {
+  @NonNull
+  public final EditText editcity;
+
+  @NonNull
+  public final EditText editstate;
+
+  @NonNull
+  public final EditText editsubrb;
+
+  @NonNull
+  public final EditText editzipcode;
+
+  @NonNull
+  public final Button eliminaraddres;
+
+  private ActivityEditAddressBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button actualizaraddres, @NonNull Button buttonaddres, @NonNull ListView datosaddres,
+      @NonNull EditText editaddress, @NonNull EditText editcity, @NonNull EditText editstate,
+      @NonNull EditText editsubrb, @NonNull EditText editzipcode, @NonNull Button eliminaraddres) {
     this.rootView = rootView;
-    this.button = button;
-    this.editTextTextPersonName2 = editTextTextPersonName2;
-    this.editTextTextPersonName3 = editTextTextPersonName3;
-    this.editTextTextPersonName4 = editTextTextPersonName4;
-    this.editTextTextPersonName5 = editTextTextPersonName5;
+    this.actualizaraddres = actualizaraddres;
+    this.buttonaddres = buttonaddres;
+    this.datosaddres = datosaddres;
     this.editaddress = editaddress;
+    this.editcity = editcity;
+    this.editstate = editstate;
+    this.editsubrb = editsubrb;
+    this.editzipcode = editzipcode;
+    this.eliminaraddres = eliminaraddres;
   }
 
   @Override
@@ -78,33 +91,21 @@ public final class ActivityEditAddressBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.actualizaraddres;
+      Button actualizaraddres = ViewBindings.findChildViewById(rootView, id);
+      if (actualizaraddres == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName2;
-      EditText editTextTextPersonName2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName2 == null) {
+      id = R.id.buttonaddres;
+      Button buttonaddres = ViewBindings.findChildViewById(rootView, id);
+      if (buttonaddres == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName3;
-      EditText editTextTextPersonName3 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName3 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName4;
-      EditText editTextTextPersonName4 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName4 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName5;
-      EditText editTextTextPersonName5 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName5 == null) {
+      id = R.id.datosaddres;
+      ListView datosaddres = ViewBindings.findChildViewById(rootView, id);
+      if (datosaddres == null) {
         break missingId;
       }
 
@@ -114,9 +115,39 @@ public final class ActivityEditAddressBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEditAddressBinding((ConstraintLayout) rootView, button,
-          editTextTextPersonName2, editTextTextPersonName3, editTextTextPersonName4,
-          editTextTextPersonName5, editaddress);
+      id = R.id.editcity;
+      EditText editcity = ViewBindings.findChildViewById(rootView, id);
+      if (editcity == null) {
+        break missingId;
+      }
+
+      id = R.id.editstate;
+      EditText editstate = ViewBindings.findChildViewById(rootView, id);
+      if (editstate == null) {
+        break missingId;
+      }
+
+      id = R.id.editsubrb;
+      EditText editsubrb = ViewBindings.findChildViewById(rootView, id);
+      if (editsubrb == null) {
+        break missingId;
+      }
+
+      id = R.id.editzipcode;
+      EditText editzipcode = ViewBindings.findChildViewById(rootView, id);
+      if (editzipcode == null) {
+        break missingId;
+      }
+
+      id = R.id.eliminaraddres;
+      Button eliminaraddres = ViewBindings.findChildViewById(rootView, id);
+      if (eliminaraddres == null) {
+        break missingId;
+      }
+
+      return new ActivityEditAddressBinding((ConstraintLayout) rootView, actualizaraddres,
+          buttonaddres, datosaddres, editaddress, editcity, editstate, editsubrb, editzipcode,
+          eliminaraddres);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

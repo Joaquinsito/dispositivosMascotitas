@@ -61,17 +61,17 @@
             android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editzipcode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
             android:hint="Zip Code"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/editsubrb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -80,7 +80,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editcity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -90,7 +90,7 @@
             android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/editstate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -98,15 +98,47 @@
             android:hint="State"
             android:inputType="textPersonName" />
 
-        <Button
-            android:id="@+id/button"
+        <LinearLayout
+            android:layout_width="332dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonaddres"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/actualizaraddres"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/purple_500"
+                android:text="@string/update"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/eliminaraddres"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="@string/delete"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/datosaddres"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:backgroundTint="@color/purple_500"
-            android:text="Save"
-            android:textColor="@color/white" />
+            android:layout_height="158dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

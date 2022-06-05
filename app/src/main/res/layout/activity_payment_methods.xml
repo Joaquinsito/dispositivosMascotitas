@@ -90,6 +90,14 @@
                 android:hint="Jose Lopez XXXX XXXX XXXX 7803"
                 android:textSize="15sp"/>
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="editPay"
+            android:text="@string/EditarPago" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -168,10 +168,6 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_payment_successful.xml"
     },
     {
-        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_listorders.xml.flat",
-        "source": "com.example.projectmascotitas.app-main-44:/layout/listorders.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -222,6 +218,10 @@
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-42:\\layout_activity_password.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_password.xml"
+    },
+    {
+        "merged": "com.example.projectmascotitas.app-merged_res-42:/layout_activity_registro.xml.flat",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_registro.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-merged_res-42:\\layout_activity_profile.xml.flat",

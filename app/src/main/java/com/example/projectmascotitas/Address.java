@@ -15,7 +15,6 @@ public class Address extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_address);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         details(findViewById(R.id.card));
     }
 
@@ -36,5 +35,10 @@ public class Address extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), EditAddress.class));
             }
         });
+    }
+
+    public void editaddres(View view){
+        Intent siguiente = new Intent(Address.this, EditAddress.class );
+        startActivity(siguiente);
     }
 }

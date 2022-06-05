@@ -44,18 +44,13 @@
     <string name="Tarjeta2">Card 2</string>
     <string name="Perfil">Profile</string>
     <string name="InformacionU">User Information</string>
+    <string name="update">Update</string>
+    <string name="delete">delete</string>
+    <string name="EditarPago">Edit card</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_menu">menu</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="nameregister">Name</string>
-    <string name="lastnameregister">Lastname</string>
-    <string name="phoneregister">Phone</string>
-    <string name="addressR">Address</string>
+
+
 
 
 </resources>

@@ -38,7 +38,6 @@ public class RegistroUser extends AppCompatActivity {
         conpasswordR = findViewById(R.id.confirmPassword);
         BotonRegistrar = findViewById(R.id.buttonRegisters);
         inicializacionFireBase();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         BotonRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
