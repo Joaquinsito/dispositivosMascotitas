@@ -12,6 +12,7 @@
     <string name="Ciudad">City </string>
     <string name="Descripcion">With this new dog collar you will make him the envy of the neighborhood giving him extra comfort and style</string>
     <string name="EditarDireccion">Edit Address</string>
+    <string name="EditarPago">Edit card</string>
     <string name="Estado"> State</string>
     <string name="GuardarD">Save</string>
     <string name="InformacionU">User Information</string>
@@ -39,6 +40,7 @@
     <string name="contraseñaN">New Password</string>
     <string name="correo">Email</string>
     <string name="default_web_client_id" translatable="false">300157736948-aam8nr6in4m5e2pbif4q8qi55apsugjf.apps.googleusercontent.com</string>
+    <string name="delete">delete</string>
     <string name="descripcion2">With this new reflective clothing your dog can go out to enjoy a night walk</string>
     <string name="direccion">Address</string>
     <string name="direccion1">Address 1</string>
@@ -65,6 +67,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
+    <string name="update">Update</string>
     <style name="Theme.ProjectMascotitas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

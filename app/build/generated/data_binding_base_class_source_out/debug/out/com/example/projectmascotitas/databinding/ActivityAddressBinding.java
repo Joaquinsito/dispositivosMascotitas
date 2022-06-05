@@ -4,6 +4,7 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -27,6 +28,9 @@ public final class ActivityAddressBinding implements ViewBinding {
   public final LinearLayout card;
 
   @NonNull
+  public final Button iredit;
+
+  @NonNull
   public final TextView textView10;
 
   @NonNull
@@ -39,11 +43,12 @@ public final class ActivityAddressBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityAddressBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout address2,
-      @NonNull LinearLayout card, @NonNull TextView textView10, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull LinearLayout card, @NonNull Button iredit, @NonNull TextView textView10,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.address2 = address2;
     this.card = card;
+    this.iredit = iredit;
     this.textView10 = textView10;
     this.textView7 = textView7;
     this.textView8 = textView8;
@@ -89,6 +94,12 @@ public final class ActivityAddressBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.iredit;
+      Button iredit = ViewBindings.findChildViewById(rootView, id);
+      if (iredit == null) {
+        break missingId;
+      }
+
       id = R.id.textView10;
       TextView textView10 = ViewBindings.findChildViewById(rootView, id);
       if (textView10 == null) {
@@ -113,8 +124,8 @@ public final class ActivityAddressBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAddressBinding((ConstraintLayout) rootView, address2, card, textView10,
-          textView7, textView8, textView9);
+      return new ActivityAddressBinding((ConstraintLayout) rootView, address2, card, iredit,
+          textView10, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -37,4 +37,9 @@ public class Address extends AppCompatActivity {
             }
         });
     }
+
+    public void editaddres(View view){
+        Intent siguiente = new Intent(Address.this, EditAddress.class );
+        startActivity(siguiente);
+    }
 }

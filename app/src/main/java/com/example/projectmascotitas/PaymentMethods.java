@@ -37,4 +37,8 @@ public class PaymentMethods extends AppCompatActivity {
             }
         });
     }
+    public void editPay(View view){
+        Intent siguiente = new Intent(PaymentMethods.this, EditCard.class );
+        startActivity(siguiente);
+    }
 }

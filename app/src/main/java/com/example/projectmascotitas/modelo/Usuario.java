@@ -74,6 +74,6 @@ public class Usuario {
         this.conpassword = conpassword;
     }
 
-
+    public String toString(){return name;}
 
 }

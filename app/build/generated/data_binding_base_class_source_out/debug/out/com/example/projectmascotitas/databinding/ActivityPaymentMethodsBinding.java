@@ -4,6 +4,7 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -24,6 +25,9 @@ public final class ActivityPaymentMethodsBinding implements ViewBinding {
   public final LinearLayout address2;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
   public final LinearLayout card;
 
   @NonNull
@@ -39,10 +43,12 @@ public final class ActivityPaymentMethodsBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityPaymentMethodsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout address2, @NonNull LinearLayout card, @NonNull TextView textView10,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull LinearLayout address2, @NonNull Button button, @NonNull LinearLayout card,
+      @NonNull TextView textView10, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.address2 = address2;
+    this.button = button;
     this.card = card;
     this.textView10 = textView10;
     this.textView7 = textView7;
@@ -83,6 +89,12 @@ public final class ActivityPaymentMethodsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
       id = R.id.card;
       LinearLayout card = ViewBindings.findChildViewById(rootView, id);
       if (card == null) {
@@ -113,7 +125,7 @@ public final class ActivityPaymentMethodsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPaymentMethodsBinding((ConstraintLayout) rootView, address2, card,
+      return new ActivityPaymentMethodsBinding((ConstraintLayout) rootView, address2, button, card,
           textView10, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);

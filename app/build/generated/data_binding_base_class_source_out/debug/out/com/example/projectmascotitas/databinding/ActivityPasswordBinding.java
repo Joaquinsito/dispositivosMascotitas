@@ -4,7 +4,9 @@ package com.example.projectmascotitas.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,24 +23,33 @@ public final class ActivityPasswordBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final ListView datoscontraseA;
 
   @NonNull
-  public final EditText editTextTextPersonName6;
+  public final EditText editnewpassword;
+
+  @NonNull
+  public final EditText editoldpasswor;
 
   @NonNull
   public final TextView oldpass;
 
   @NonNull
+  public final Button salvarpassword;
+
+  @NonNull
   public final TextView textView12;
 
   private ActivityPasswordBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText editTextTextPersonName, @NonNull EditText editTextTextPersonName6,
-      @NonNull TextView oldpass, @NonNull TextView textView12) {
+      @NonNull ListView datoscontraseA, @NonNull EditText editnewpassword,
+      @NonNull EditText editoldpasswor, @NonNull TextView oldpass, @NonNull Button salvarpassword,
+      @NonNull TextView textView12) {
     this.rootView = rootView;
-    this.editTextTextPersonName = editTextTextPersonName;
-    this.editTextTextPersonName6 = editTextTextPersonName6;
+    this.datoscontraseA = datoscontraseA;
+    this.editnewpassword = editnewpassword;
+    this.editoldpasswor = editoldpasswor;
     this.oldpass = oldpass;
+    this.salvarpassword = salvarpassword;
     this.textView12 = textView12;
   }
 
@@ -69,15 +80,21 @@ public final class ActivityPasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
+      id = R.id.datoscontraseña;
+      ListView datoscontraseA = ViewBindings.findChildViewById(rootView, id);
+      if (datoscontraseA == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName6;
-      EditText editTextTextPersonName6 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName6 == null) {
+      id = R.id.editnewpassword;
+      EditText editnewpassword = ViewBindings.findChildViewById(rootView, id);
+      if (editnewpassword == null) {
+        break missingId;
+      }
+
+      id = R.id.editoldpasswor;
+      EditText editoldpasswor = ViewBindings.findChildViewById(rootView, id);
+      if (editoldpasswor == null) {
         break missingId;
       }
 
@@ -87,14 +104,20 @@ public final class ActivityPasswordBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.salvarpassword;
+      Button salvarpassword = ViewBindings.findChildViewById(rootView, id);
+      if (salvarpassword == null) {
+        break missingId;
+      }
+
       id = R.id.textView12;
       TextView textView12 = ViewBindings.findChildViewById(rootView, id);
       if (textView12 == null) {
         break missingId;
       }
 
-      return new ActivityPasswordBinding((ConstraintLayout) rootView, editTextTextPersonName,
-          editTextTextPersonName6, oldpass, textView12);
+      return new ActivityPasswordBinding((ConstraintLayout) rootView, datoscontraseA,
+          editnewpassword, editoldpasswor, oldpass, salvarpassword, textView12);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
