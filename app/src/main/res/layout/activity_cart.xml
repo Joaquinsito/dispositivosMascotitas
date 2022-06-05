@@ -42,51 +42,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="117dp"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="205dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/pr1" />
-
-            <LinearLayout
+            <TextView
+                android:id="@+id/nameproduct"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:text="TextView" />
 
-                <TextView
-                    android:id="@+id/productName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/ProductoN"
-                    android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/priceproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
 
-                <TextView
-                    android:id="@+id/productPriceCart"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="$50.00"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/quantitycart"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Cantidad: 1" />
+            <TextView
+                android:id="@+id/quantityproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
 
 
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:text="@string/remover"
-                    android:backgroundTint="@color/orange_200"/>
-            </LinearLayout>
         </LinearLayout>
 
         <Button

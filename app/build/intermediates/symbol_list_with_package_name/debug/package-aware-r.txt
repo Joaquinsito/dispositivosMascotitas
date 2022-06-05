@@ -2688,6 +2688,7 @@ id actions
 id activity_chooser_view_content
 id add
 id address2
+id addressR
 id addressbtn
 id adjust_height
 id adjust_width
@@ -2725,7 +2726,6 @@ id btn_link
 id btnpaycart
 id button
 id button2
-id button3
 id buttonPanel
 id buttonRegister
 id buttonRegisters
@@ -2871,7 +2871,6 @@ id image
 id imageButton
 id imageView
 id imageView2
-id imageView3
 id imb
 id imb1
 id immediateStop
@@ -3014,19 +3013,19 @@ id payfinal
 id payment
 id peekHeight
 id percent
+id phoneR
 id phoneRegister
 id pin
 id position
 id postLayout
+id priceproduct
 id prices
 id product
-id productName
-id productPriceCart
 id profile
 id progressBar
 id progress_circular
 id progress_horizontal
-id quantitycart
+id quantityproduct
 id radio
 id radioButton
 id radioButton2
@@ -3454,6 +3453,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string addressR
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3514,6 +3514,7 @@ string historial
 string icon_content_description
 string item_view_role_description
 string lastname
+string lastnameregister
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3596,6 +3597,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
 string name
+string nameregister
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string pagar
@@ -3606,6 +3608,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string phoneNumber
+string phoneregister
 string productos
 string project_id
 string remover

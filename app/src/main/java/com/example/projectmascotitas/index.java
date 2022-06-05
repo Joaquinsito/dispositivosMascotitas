@@ -34,6 +34,7 @@ import java.util.UUID;
 public class index extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "Message";
+    public static final String EXTRA_MESSAGE2 = "Message";
     BottomNavigationView bottomNavigationView;
     private ArrayList<Product> listproducts = new ArrayList<Product>();
     ArrayAdapter<Product> arrayAdapterProduct;
@@ -105,9 +106,11 @@ public class index extends AppCompatActivity {
 //                inputPrice.setText(productSelected.getPrice());
 
                 String texto = productSelected.getName().toString();
+                String price = productSelected.getPrice().toString();
 
                 Intent toDetails = new Intent(index.this, details.class);
-                toDetails.putExtra(EXTRA_MESSAGE, texto);
+                toDetails.putExtra("name", texto);
+                toDetails.putExtra("price", price);
                 startActivity(toDetails);
 
             }

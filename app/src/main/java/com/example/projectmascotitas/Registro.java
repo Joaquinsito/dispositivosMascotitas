@@ -5,16 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.projectmascotitas.modelo.Usuario;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.UUID;
 
 public class Registro extends AppCompatActivity {
 
@@ -26,22 +32,23 @@ public class Registro extends AppCompatActivity {
     private EditText lastname;
     private EditText address;
     private EditText phone;
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
         mAuth = FirebaseAuth.getInstance();
+        databaseReference =FirebaseDatabase.getInstance().getReference();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        email = findViewById(R.id.mailRegister);
-        password = findViewById(R.id.password);
-        confirmpassword = findViewById(R.id.confirmPassword);
-        name = findViewById(R.id.nameR);
-        lastname = findViewById(R.id.lastnameR);
-        address = findViewById(R.id.addressbtn);
-        phone = findViewById(R.id.phoneRegister);
+        email = (EditText) findViewById(R.id.mailRegister);
+        password = (EditText) findViewById(R.id.password);
+        confirmpassword = (EditText) findViewById(R.id.confirmPassword);
+        name = (EditText) findViewById(R.id.nameR);
+        lastname = (EditText) findViewById(R.id.lastnameR);
+        address = (EditText) findViewById(R.id.addressR);
+        phone = (EditText) findViewById(R.id.phoneR);
     }
 
     @Override
@@ -63,12 +70,59 @@ public class Registro extends AppCompatActivity {
     }
 
     public void registrarUsuario(View view){
+        String emailtxt = email.getText().toString();
+        String passwordtxt = password.getText().toString();
+        String nametxt = name.getText().toString();
+        String lastnametxt = lastname.getText().toString();
+        String addresstxt = address.getText().toString();
+        String phonetxt = phone.getText().toString();
+        String conpasswordtxt = confirmpassword.getText().toString();
+
+        if(nametxt.isEmpty()){
+            name.setError("Name is required");
+            name.requestFocus();
+            return;
+        }
+
+        if(lastnametxt.isEmpty()){
+            name.setError("Last Name is required");
+            name.requestFocus();
+            return;
+        }
+
+        if(addresstxt.isEmpty()){
+            name.setError("Address is required");
+            name.requestFocus();
+            return;
+        }
+        if(phonetxt.isEmpty()){
+            name.setError("Phone is required");
+            name.requestFocus();
+            return;
+        }
+
+        if(!Patterns.EMAIL_ADDRESS.matcher(emailtxt).matches()){
+            email.setError("Please provide valide email");
+            name.requestFocus();
+            return;
+        }
+
         if (password.getText().toString().equals(confirmpassword.getText().toString())){
             mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
+                                Usuario p = new Usuario();
+                                p.setUid(UUID.randomUUID().toString());
+                                p.setName(nametxt);
+                                p.setLastname(lastnametxt);
+                                p.setAddres(addresstxt);
+                                p.setPhone(phonetxt);
+                                p.setMail(emailtxt);
+                                p.setPassword(passwordtxt);
+                                p.setConpassword(conpasswordtxt);
+                                databaseReference.child("Usuario").child(p.getUid()).setValue(p);
                                 Toast.makeText(getApplicationContext()," Successfull.", Toast.LENGTH_SHORT).show();
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 Intent i = new Intent(Registro.this, index.class);

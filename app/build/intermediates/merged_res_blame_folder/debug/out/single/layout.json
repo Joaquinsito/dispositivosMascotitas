@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_rating.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_edit_address.xml",
-        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_edit_address.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_address.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_edit_address.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_edit_address.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_payment_methods.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_index.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_history.xml",
-        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_history.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_details.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_history.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_registro.xml",
@@ -84,11 +84,11 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_offers.xml",
-        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_offers.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_howto.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_howto.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_offers.xml",
+        "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_offers.xml"
     }
 ]

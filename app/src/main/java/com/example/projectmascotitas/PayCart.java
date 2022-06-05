@@ -14,7 +14,6 @@ public class PayCart extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pay_cart);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
