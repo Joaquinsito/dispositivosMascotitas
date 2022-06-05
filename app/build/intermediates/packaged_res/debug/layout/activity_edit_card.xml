@@ -49,13 +49,13 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/cnumber"
+            android:id="@+id/cardnumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:gravity="center"
             android:hint="xxxx xxxx xxxx xxxx"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textSize="20sp"/>
 
         <LinearLayout
@@ -100,7 +100,7 @@
                 android:ems="10"
                 android:gravity="center"
                 android:hint="00/00"
-                android:inputType="textPersonName"
+                android:inputType="date"
                 android:textSize="20sp"/>
 
             <EditText
@@ -112,16 +112,46 @@
                 android:ems="10"
                 android:gravity="center"
                 android:hint="000"
-                android:inputType="textPersonName"
+                android:inputType="number"
                 android:textSize="20sp"/>
         </LinearLayout>
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="179dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:text="Save and pay"
-            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_width="361dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/savepay"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="@string/GuardarD" />
+
+            <Button
+                android:id="@+id/updatepay"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"
+                android:text="@string/update" />
+
+            <Button
+                android:id="@+id/deletepay"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="@string/delete" />
+
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/datospago"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

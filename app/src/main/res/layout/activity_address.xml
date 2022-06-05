@@ -100,5 +100,14 @@
                 android:textSize="17sp" />
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/iredit"
+            android:layout_width="274dp"
+            android:layout_height="64dp"
+            android:layout_gravity="end"
+            android:onClick="editaddres"
+            android:text="@string/EditarDireccion" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

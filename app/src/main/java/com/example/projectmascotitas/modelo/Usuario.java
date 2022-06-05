@@ -73,6 +73,6 @@ public class Usuario {
     public void setConpassword(String conpassword) {
         this.conpassword = conpassword;
     }
-
+    public String toString(){return name;}
 
 }

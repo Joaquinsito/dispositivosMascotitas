@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/nameregister"
+            android:hint="@string/name"
             android:minHeight="48dp" />
 
         <EditText
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/lastnameregister"
+            android:hint="@string/lastname"
             android:minHeight="48dp" />
 
         <EditText
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/addressR"
+            android:hint="@string/direccion"
             android:minHeight="48dp" />
 
         <EditText
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/phoneregister"
+            android:hint="@string/phoneNumber"
             android:inputType="textPassword"
             android:minHeight="48dp" />
         <Button

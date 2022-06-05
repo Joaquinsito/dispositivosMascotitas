@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_login.xml"
     },
     {
+        "merged": "com.example.projectmascotitas.app-mergeDebugResources-41:/layout/activity_registro.xml",
+        "source": "com.example.projectmascotitas.app-main-44:/layout/activity_registro.xml"
+    },
+    {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_history.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_history.xml"
     },
@@ -82,10 +86,6 @@
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_registro.xml",
         "source": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-main-44:\\layout\\activity_registro.xml"
-    },
-    {
-        "merged": "com.example.projectmascotitas.app-mergeDebugResources-41:/layout/listorders.xml",
-        "source": "com.example.projectmascotitas.app-main-44:/layout/listorders.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\.gradle\\daemon\\7.3.3\\com.example.projectmascotitas.app-mergeDebugResources-41:\\layout\\activity_cart.xml",

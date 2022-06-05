@@ -12,6 +12,7 @@
     <string name="Ciudad">City </string>
     <string name="Descripcion">With this new dog collar you will make him the envy of the neighborhood giving him extra comfort and style</string>
     <string name="EditarDireccion">Edit Address</string>
+    <string name="EditarPago">Edit card</string>
     <string name="Estado"> State</string>
     <string name="GuardarD">Save</string>
     <string name="InformacionU">User Information</string>
@@ -28,7 +29,6 @@
     <string name="Tarjeta1">Card 1</string>
     <string name="Tarjeta2">Card 2</string>
     <string name="Tarjetas">Cards</string>
-    <string name="addressR">Address</string>
     <string name="app_name">ProjectMascotitas</string>
     <string name="btn_comprar">buy now</string>
     <string name="btn_login">Login</string>
@@ -40,6 +40,7 @@
     <string name="contraseñaN">New Password</string>
     <string name="correo">Email</string>
     <string name="default_web_client_id" translatable="false">300157736948-aam8nr6in4m5e2pbif4q8qi55apsugjf.apps.googleusercontent.com</string>
+    <string name="delete">delete</string>
     <string name="descripcion2">With this new reflective clothing your dog can go out to enjoy a night walk</string>
     <string name="direccion">Address</string>
     <string name="direccion1">Address 1</string>
@@ -52,23 +53,16 @@
     <string name="google_app_id" translatable="false">1:300157736948:android:774d88dcc6bc1f536c8ba1</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4nsRrd63y6mHYPO4F5KFYzpxaKrMfR6A</string>
     <string name="google_storage_bucket" translatable="false">projectmascotitas.appspot.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historial">History</string>
     <string name="lastname">Last Name</string>
-    <string name="lastnameregister">Lastname</string>
     <string name="name">Name</string>
-    <string name="nameregister">Name</string>
     <string name="pagar">Pay</string>
     <string name="password">Password</string>
     <string name="phoneNumber">Phone number</string>
-    <string name="phoneregister">Phone</string>
     <string name="productos">Products</string>
     <string name="project_id" translatable="false">projectmascotitas</string>
     <string name="remover">Remove</string>
-    <string name="title_activity_menu">menu</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_home">Home</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="update">Update</string>
     <style name="Theme.ProjectMascotitas" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

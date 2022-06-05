@@ -15,7 +15,7 @@ public class PaymentMethods extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_methods);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         details(findViewById(R.id.card));
     }
 
@@ -36,5 +36,9 @@ public class PaymentMethods extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), EditCard.class));
             }
         });
+    }
+    public void editPay(View view){
+        Intent siguiente = new Intent(PaymentMethods.this, EditCard.class );
+        startActivity(siguiente);
     }
 }
