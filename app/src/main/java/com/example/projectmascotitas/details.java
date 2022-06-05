@@ -33,6 +33,7 @@ public class details extends AppCompatActivity {
         String textoRecibido2 = getData.getExtras().getString("price");
         String quantitytxt = "1";
 
+        txtResult.setText(textoRecibido);
         txtResult2.setText(textoRecibido2);
 
         Button button = (Button) findViewById(R.id.cart);
